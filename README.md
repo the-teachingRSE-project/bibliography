@@ -11,4 +11,4 @@ git commit -m "Update bibliography submodule"
 git push
 ```
 
-In your pull request, you should see `bibliography` as a one-line modification, with the comment `Submodule bibliography added at <commit hash>`. Make sure that this commit hash points to the state of the bibliography repository you want to.
+In your pull request, you should see `bibliography` as a one-line modification, with the comment `Submodule bibliography added at <commit hash>`. Make sure that this commit hash points to the state of the bibliography repository you want to. This means that it should not point to a commit in your fork not on the main repository. Be careful also to not point to a commit that you later squash.
